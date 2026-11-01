@@ -1,6 +1,6 @@
 # AIWriteX- 微信公众号AI写作助手 | CrewAI多智能体爆文生成神器
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB)](https://www.python.org/) [![CrewAI](https://img.shields.io/badge/CrewAI-0.102.0+-FF6B6B)](https://pypi.org/project/crewai) [![AIForge](https://img.shields.io/badge/aiforge-0.0.19+-E91E63)](https://pypi.org/project/aiforge-engine) [![PyWebView](https://img.shields.io/badge/PyWebView-4.0.0+-9C27B0)](https://pywebview.flowrl.com/) [![FastAPI](https://img.shields.io/badge/FastAPI-0.116.1+-009688)](https://fastapi.tiangolo.com/) [![GrapesJS](https://img.shields.io/badge/GrapesJS-0.22.13+-4A90E2)](https://grapesjs.com/) [![Monaco Editor](https://img.shields.io/badge/Monaco%20Editor-0.45.0+-4CAF50)](https://microsoft.github.io/monaco-editor/) [![Marked](https://img.shields.io/badge/Marked-11.1.1+-00BCD4)](https://marked.js.org/) [![PyWinGUIBuilder](https://img.shields.io/badge/PyWinGUIBuilder-1.0.0+-FFC107)](https://github.com/iniwap/PyWinGUIBuilder) [![Stars](https://img.shields.io/github/stars/iniwap/AIWriteX?label=收藏)](https://iniwap.github.io/AIWriteX)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB)](https://www.python.org/) [![CrewAI](https://img.shields.io/badge/CrewAI-0.102.0+-FF6B6B)](https://pypi.org/project/crewai) [![AIForge](https://img.shields.io/badge/aiforge-0.0.20+-E91E63)](https://pypi.org/project/aiforge-engine) [![PyWebView](https://img.shields.io/badge/PyWebView-4.0.0+-9C27B0)](https://pywebview.flowrl.com/) [![FastAPI](https://img.shields.io/badge/FastAPI-0.116.1+-009688)](https://fastapi.tiangolo.com/) [![GrapesJS](https://img.shields.io/badge/GrapesJS-0.22.13+-4A90E2)](https://grapesjs.com/) [![Monaco Editor](https://img.shields.io/badge/Monaco%20Editor-0.45.0+-4CAF50)](https://microsoft.github.io/monaco-editor/) [![Marked](https://img.shields.io/badge/Marked-11.1.1+-00BCD4)](https://marked.js.org/) [![PyWinGUIBuilder](https://img.shields.io/badge/PyWinGUIBuilder-1.0.0+-FFC107)](https://github.com/iniwap/PyWinGUIBuilder) [![Stars](https://img.shields.io/github/stars/iniwap/AIWriteX?label=收藏)](https://iniwap.github.io/AIWriteX)
 
 **[<u>AIWriteX</u>](https://aiwritex.voidai.cc/) 新一代智能内容创作平台**：一键全自动热点选题 + 实时搜索借鉴 + AI创意生成 + 精美排版 + AI自动配图 + 微信公众号自动发布，融合 **AI + 全网热点雷达 + 微信文章采集下载 + 深度洗稿与内容挖掘 + 多智能体协作 + 去AI味润色 + 手机智能体控制/类OpenClaw + 系统智能自进化**，让你的文章快人一步、阅读量10w+不是梦！
 
@@ -8,10 +8,31 @@
 > **想用商业稳定版？** 👉 [前往官网](https://aiwritex.voidai.cc/)  
 > **喜欢这个项目？** ⭐ 点个 Star 支持一下吧！
 
+## 图片赛道+RSS订阅+朱雀高人工率
+- **新增图片赛道**：新增内置16种图片赛道，分两大类AI生图、本地渲染图，极速开启你的贴图运营之旅。
+- **热点雷达新增RSS**:为了丰富网络资源，获取更多热点，增加RSS平台类别，为文章提供更多参考，发现更多话题。
+- **去AI味**:测试出现100%人工率案例，较以往版本大幅提升去AI味效果。
+
+<img src="v251.jpeg" width="100%">
+
+## ⚔️ 文案武库：让 AI 按爆款形态产出短内容
+
+如果说专家赛道解决“写什么领域”，文案武库则解决“写成什么形态”。它把影视解说、带货脚本、小红书笔记等短内容爆款形态拆解为可复用的**场景资产**：选中一个场景，AI 就知道该用什么结构开场、怎么埋钩子、用什么语气收尾，短内容创作从“凭感觉磨提示词”变为“选个场景直接出成品”。
+
+- **内置场景库，选中即用**：覆盖影视解说、短视频口播、带货脚本、小红书笔记、剧情段子、情感语录、Vlog 生活、私域运营、商业公关、教育知识等 10 大类共 24 个高频场景，每个场景自带爆款结构、多条钩子路线与语气规范，不用自己写提示词。
+- **三大创作模式**：原创（按场景直接生成）、仿写（对标爆款骨架复刻，内容全新原创）、转换（已有内容一键改写成目标形态）；还能通过内置克隆、AI 智能创建、仿写沉淀、Prompt 导入自建专属场景，越用越顺手。
+- **五个旋钮，一篇一调**：开头钩子、情绪强度、节奏快慢、收尾方式、口语化程度都能一键切换，本次生成临时生效，不用改场景，也不怕调坏——选错档位自动回到安全默认。
+- **质量不再碰运气**：每篇成品自动体检——钩子够不够抓人、节奏有没有起伏、细节够不够具体、AI 味重不重，不达标自动修正到达标为止，而且只会越改越好，绝不越改越差。
+- **成品直接能用**：解说/口播稿自动逐句换行，拿去配音、对字幕、上提词器一步到位；笔记类自动短行排版，复制就能发。平台合规红线（AIGC 标识、反模板化互动）和 AI 味风险提示也帮你自动把关。
+- **工坊深度联动**：场景与专家赛道二选一，启用后创意工坊跳过模板排版直接产出纯文本成品，自动归档到内容中心“文案武库”分类，整备→生产→归档一气呵成。
+
+<img src="v250.jpg" width="100%">
+
 ## 模板管理+微信公众号关注下载
 新增丰富的MD、图片模板，视觉效果巨大升级。
 - **MD模板**：9种内置分类，23种排版样式，精美的设计、超好看的视觉风格。
-- **图片模板**：9种内置分类，32种图片模板，超强的文图一体效果，配图更加专业化。
+- **图片模板**：9种内置分类，40种图片模板，超强的文图一体效果，配图更加专业化。
+- **风格预设**：21种内置配图风格预设模板，直接选用，无需调配参数
 - 支持指定公众号下载其所有文章
 - 支持关注公众号以查看其新发文情况
 
